@@ -39,7 +39,7 @@
     const imgArea = document.querySelector('.img-area')
     //懒加载使用:
     const lz = LazyImage({
-        threshold: [0.5],
+        threshold: 0.5,
         speed: 1000,
         callback: function (target) {
             console.log(this, target)
